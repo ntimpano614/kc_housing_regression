@@ -16,7 +16,11 @@ The data used was housing data from King County. The csv file can be viewed [her
 - The size of the house (`sqft_living`), number of bathrooms (`bathrooms`), quality of the construction (`grade`) and houses in the northern part of the county (`north`) were the best predictors of price without being collinear and were chosen as features for the model.  
 ![correlation_with_price](./pictures/correlation_heatmap_02.png)
 ![price vs features](./pictures/correlation_with_price.png)
-- The model's R-Squared value indicated that 63% of the variance in price is explained by the predictors in the model.   
+- The model's R-Squared value indicated that 63% of the variance in price is explained by the predictors in the model. 
+- A 1% increase in sqft_living will lead to a 26% increase in price
+- Each additional bathroom leads to a 2.5% increase in price on average
+- Going up a grade level is associate with a 12% increase in price
+- Houses in the northern region (red circles, >= 47.5 latitude) are 41% more expensive on average
 ![model summary](./pictures/model_results.png)
 
 ## Conclusions 
