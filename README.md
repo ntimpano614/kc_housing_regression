@@ -14,10 +14,8 @@ The data used was housing data from King County. The csv file can be viewed [her
 - Splitting the data into different regions resulted in finding that there was a positive relationship between northern houses and price.   
 ![northern houses](./pictures/latitude_folium.png)
 - The size of the house (`sqft_living`), number of bathrooms (`bathrooms`), quality of the construction (`grade`) and houses in the northern part of the county (`north`) were the best predictors of price without being collinear and were chosen as features for the model.  
-![correlation_with_price](./pictures/correlation_heatmap.png)
-![price vs sqft_living](./pictures/price_vs_sqft_living.png)
-![price vs bathrooms](./pictures/price_vs_bathrooms.png)
-![price vs grade](./pictures/price_vs_grade.png)
+![correlation_with_price](./pictures/correlation_heatmap_02.png)
+![price vs features](./pictures/correlation_with_price.png)
 - The model's R-Squared value indicated that 63% of the variance in price is explained by the predictors in the model.   
 ![model summary](./pictures/model_results.png)
 
